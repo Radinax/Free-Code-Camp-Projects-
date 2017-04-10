@@ -6,6 +6,8 @@ All roman numerals answers should be provided in upper-case.
 /*
 SOLUTION
 
+In this case I made two arrays with the each roman number associated with the next array equivalent, in this case if the user put a number the code took it and converted it into its Roman equivalent.
+*/
 function convertToRoman(num) {
  var RS=[1, 4, 5, 9, 10, 40, 50, 90, 100, 400, 500, 900, 1000, 2000, 3000, 4000];
  var RS2=['I', 'IV', 'V', 'IX', 'X', 'XL', 'L', 'XC', 'C', 'CD', 'D', 'CM', 'M','MM','MMM','MMMM'];
@@ -24,4 +26,4 @@ function convertToRoman(num) {
 }
 
 convertToRoman(36);
-*/
+
