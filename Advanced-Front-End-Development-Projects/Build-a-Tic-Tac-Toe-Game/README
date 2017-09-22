@@ -1,0 +1,5 @@
+Hello, this is a challenge from the Free Code Camp course where I was tasked with creating a Tic Tac Toe game where you only had to face an AI,
+the game reset as soon as its over and been able to play as X or O. I add much more challenge to myself creating an unbeatable AI using MinMax
+algorithm recursive function, it was very hard to understand the whole concept behind and it wasn't until I read the book "You Don't Know JS"
+where I begun to understand so many important concepts that let me finish this challenge with vanilla Javascript. I'm very proud of my work 
+in this challenge.
