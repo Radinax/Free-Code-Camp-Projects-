@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Tic Tac Toe</title>
+        <meta charset="utf-8"> <!--Necesary for all characters known-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+        
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="header">Welcome to my TIC TAC TOE!</div>
+            <div id="board">
+                <div class="sides">
+                    <button class="select player" id="playX">Player X</button>
+                    <button class="select player" id="playO">Player O</button>
+                </div>
+                <div id="wrapper2">
+                    <button class="rows" id='00'></button>
+                    <button class="rows" id='01'></button>
+                    <button class="rows" id='02'></button>
+                    <button class="rows" id='10'></button>
+                    <button class="rows" id='11'></button>
+                    <button class="rows" id='12'></button>
+                    <button class="rows" id='20'></button>
+                    <button class="rows" id='21'></button>
+                    <button class="rows" id='22'></button>
+                </div>
+                <div class="sides">
+                    <button class="select" id='reset' onclick="resetButton()">Reset</button>
+                    <button class="select modes" id='one-player' onclick="onePlayerMode()">START!</button>
+                </div>
+            </div>
+            <footer id='footer'>
+                <div id='gameScore'>Welcome to Radinax's TicTacToe game. Press the start button!</div>
+            </footer>
+        </div>
+        <script src="../js/main.js"></script>
+    </body>
+    
+</html>
