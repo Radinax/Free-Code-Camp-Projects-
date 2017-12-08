@@ -1,0 +1,111 @@
+.button {
+  margin: 0;
+  float: left;
+  position: relative;
+  border: solid 3px black;
+  height: 250px;
+  width: 250px; }
+
+button:focus {
+  outline: 0; }
+
+#red {
+  background: #ff0000;
+  border-radius: 250px 0 0 0; }
+
+#blue {
+  background: #0000ff;
+  border-radius: 0 250px 0 0; }
+
+#yellow {
+  background: #e6e600;
+  border-radius: 0 0 0 250px; }
+
+#green {
+  background: green;
+  border-radius: 0 0 250px 0; }
+
+#counter {
+  background: #330000;
+  color: #ff4d4d;
+  width: 60px;
+  height: 20px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 14%; }
+
+.onOff {
+  border-radius: 50%;
+  height: 23px;
+  width: 23px; }
+
+.strictOff {
+  background: #e6b800; }
+
+.strictOn {
+  background: #ffff80; }
+
+#start {
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 10px; }
+
+#on {
+  background-color: red; }
+
+#off {
+  background-color: black; }
+
+html, body {
+  background: url(http://www.stockvault.net/data/2017/02/03/222197/preview16.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.container {
+  height: 550px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
+.simonBoard {
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  border: solid 5px black;
+  border-radius: 500px;
+  text-align: center;
+  position: absolute;
+  z-index: 8; }
+
+.controls {
+  width: 220px;
+  height: 220px;
+  background-color: white;
+  border: solid 6px black;
+  border-radius: 150px;
+  position: absolute;
+  z-index: 10; }
+
+.title {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold; }
+
+.description, .onOff {
+  font-weight: bold; }

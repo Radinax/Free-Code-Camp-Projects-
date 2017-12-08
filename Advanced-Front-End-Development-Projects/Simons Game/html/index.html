@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Simon's Game</title>
+        <meta charset="utf-8"> <!--Necesary for all characters known-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="../css/main.css">
+        
+    </head>
+    <body>
+        <audio id="soundRed" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3"></audio>
+        <audio id="soundBlue" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"></audio>
+        <audio id="soundYellow" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3"></audio>
+        <audio id="soundGreen" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3"></audio>
+        <audio id="soundWrong" src="http://www.freesound.org/data/previews/331/331912_3248244-lq.mp3"></audio>
+        <div class='container'>
+            <div class='simonBoard'>
+                <button class="button" id="red""></button>
+                <button class="button" id="blue""></button>
+                <button class="button" id="yellow""></button>
+                <button class="button" id="green""></button>
+            </div>
+            <div class='controls'>
+                <div class='title'>SIMON</div>
+                <div id='counter'>--</div>
+                <button id="start">Start</button>
+                <div id='buttonSetOnOff'>
+                    <button class='onOff' id='on'></button>
+                    <button class='onOff' id='off' onclick="off()"></button>
+                    <div class='description'>On/Off</div>
+                    <button class='onOff strictOff' id='strict'></button>
+                    <div class='description'>Strict</div>
+                </div>
+            </div>
+            
+        </div>
+        <script src="../js/main.js"></script>
+    </body>
+    
+</html>
