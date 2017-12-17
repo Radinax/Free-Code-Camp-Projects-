@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Adrian Beria Pomodoro Clock">
+    <meta name="keywords" content="Adrian,Beria,Pomodoro,Clock,JavaScript,Freecodecamp">
+    <meta name="author" content="Adrian Beria">
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>Pomodoro Clock - Adrian Beria</title>
+</head>
+<body>
+    <main>
+        <h1 class='title'>Pomodoro Clock</h1>
+        <div class="control">
+            <div id="break-length">
+                <div class="title2">Break Length</div>
+                <div class="break-length-control">
+                    <button id="neg-break-length" class="plus-neg">-</button>
+                    <div class="control-value" id="break-length-value">1</div>
+                    <button id="plus-break-length" class="plus-neg">+</button>
+                </div>
+            </div>
+            <div id="session-length">
+                <div class="title2">Session Length</div>
+                <div class="session-length-control">
+                    <button id="neg-session-length" class="plus-neg">-</button>
+                    <div class="control-value" id="session-length-value">25</div>
+                    <button id="plus-session-length" class="plus-neg">+</button>
+                </div>
+            </div>
+        </div>
+        <div class="pomodoro">
+            <h2 class="title-3">SESSION</h2>
+            <div id="count-down"></div>
+        </div>
+        <div class="pause-reset">
+            <button id="pause" class="pause-reset">Pause</button>
+            <button id="reset" class="pause-reset">Reset</button>
+        </div>
+    </main>
+    <script src='js/main.js'></script>
+</body>
+</html>
